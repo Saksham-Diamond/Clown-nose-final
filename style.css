@@ -1,0 +1,22 @@
+canvas {
+    border: 4px solid steelblue;
+    animation-name:ani;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+h2 {
+    width: 100%;
+    height: 50px;
+    background-color: teal;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 24px;
+}
+@keyframes ani{
+    from{
+        box-shadow: 5px 12px 25px blue;
+    }
+    to{
+        box-shadow: 5px 12px 25px cyan;
+    }
+}
